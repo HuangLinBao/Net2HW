@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d2dae2;
+}
+
+.container {
+    padding: 6.5em;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #192a56 0%, #130f40 100%);
+    /* the gradient */
+    background-origin: border-box;
+    /* set background to start from border-box */
+    border-spacing: 2.5px;
+    /* space between each cell */
+    border: 2.5px solid transparent;
+    /* optional */
+}
+
+table {
+    display: block;
+    overflow: auto;
+    max-height: 35em;
+}
+
+td,
+th {
+    border-radius: 10px;
+    background: #d2dae2;
+    /* if not set cell would also be transparent and show the gradient */
+}
+
+td {
+    text-align: left;
+    padding: 0.5em;
+}
+
+td.main {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.inp-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject {
+    margin-left: 1em;
+}
