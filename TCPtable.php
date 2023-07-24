@@ -37,8 +37,9 @@ $length = count($localadd);
             </h1>
 
             <nav>
-                <a href="SNMP.php" class="nav-item">SNMP System</a>
-                <a href="TCPtable.php" class="nav-item selected">TCP Table</a>
+                <a href="SNMP.php" class="nav-item selected">SNMP System</a>
+                <a href="iTable.php" class="nav-item">IfTable</a>
+                <a href="TCPtable.php" class="nav-item">TCP Table</a>
                 <a href="UDPtable.php" class="nav-item">UDP Table</a>
             </nav>
         </div>
